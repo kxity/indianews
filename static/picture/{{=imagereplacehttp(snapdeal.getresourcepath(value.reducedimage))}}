@@ -1,0 +1,1270 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        try {
+            if (window.sdLoggerSwitch && typeof SDLogger === "object" && typeof SDLogger.log === 'function') {
+                SDLogger.init(window.SDLoggerConfig || {});
+                var params = { statusCode: "400" };
+                var pathname = window.location.pathname;
+                if (pathname && (pathname.indexOf('/product/') !== -1)) {
+                    params.pogId = pathname.substring(pathname.lastIndexOf('/') + 1);
+                }
+                SDLogger.log('pageView', 'errorLogging', params);
+            }
+        } catch (e) {
+            console.warn(e);
+        }
+    });
+</script><script>
+		var errorCode = "400";
+	</script>
+
+
+	<!DOCTYPE html>
+
+<input id="loginToken" value="" type="hidden"/>
+
+<!--[if IE 8]><html lang="en" class="ie ie8 lt-ie9 lt-ie10"> <![endif]-->
+<!--[if IE 9]><html lang="en" class="ie ie9 lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="en"><!--<![endif]-->
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# snapdeallog: http://ogp.me/ns/fb/snapdeallog#">
+
+	<link rel="dns-prefetch" href="https://i1.sdlcdn.com" />
+	<link rel="dns-prefetch" href="https://i2.sdlcdn.com" />
+	<link rel="dns-prefetch" href="https://i3.sdlcdn.com" />
+	<link rel="dns-prefetch" href="https://i4.sdlcdn.com" />
+	<link rel="dns-prefetch" href="https://n1.sdlcdn.com" />
+	<link rel="dns-prefetch" href="https://n2.sdlcdn.com" />
+	<link rel="dns-prefetch" href="https://n3.sdlcdn.com" />
+	<link rel="dns-prefetch" href="https://n4.sdlcdn.com" />
+	<link rel="dns-prefetch" href="https://sa.snapdeal.com" />
+	<link rel="dns-prefetch" href="https://search-suggester.snapdeal.com" />
+	<link rel="dns-prefetch" href="https://mobileapi.snapdeal.com" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="google-site-verification" content="60mpvzRXYFjBBgiS8n1nJQ_NF9Sr4mcp08nhnwKQ8qc" />
+	<link type="application/opensearchdescription+xml" rel="search" href="http://www.snapdeal.com/opensearch.xml"/>
+	<link rel="publisher" href="https://plus.google.com/+snapdeal"/> 
+	<link rel="alternate" media="handheld" href="https://m.snapdeal.com/product/prd-pu-tan-casual-long/%7B%7B=imageReplaceHttp(Snapdeal.getResourcePath(value.reducedImage))%7D%7D"/>
+				<link rel="alternate" href="android-app://com.snapdeal.main/snapdeal/m.snapdeal.com/product/prd-pu-tan-casual-long/%7B%7B=imageReplaceHttp(Snapdeal.getResourcePath(value.reducedImage))%7D%7D" />
+	<
+
+	<!--  for IE9 -->
+	<meta name="msvalidate.01" content="431A1F370506446F4F451D7B16EE166C" />
+
+	<meta name="y_key" content="b8b20c3f440781c8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!--[if lte IE 10]>
+			<script type="text/javascript" src="https://i4.sdlcdn.com/js/security160345103503689/snap/lteie9.min.js"></script>
+	<![endif]-->
+	<link href="https://i4.sdlcdn.com/css/security160345103503689/metroUILess/final/base.css" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8">
+
+	<title>SnapDeal.com - 400 &ndash; Bad Request</title>
+	
+	<link rel="shortcut icon" href="https://www.snapdeal.com/img/icons/finalFavicon.ico" type="image/x-icon" />
+	<link rel=icon type=image/ico href="https://www.snapdeal.com/img/icons/finalFavicon.ico" />
+
+	<link href="https://i4.sdlcdn.com/css/security160345103503689/snapdeal/innerPages.css"	rel="stylesheet" type="text/css" />
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" type="text/css" href="https://i3.sdlcdn.com/css/security160345103503689/metroUI/ie8.css" />
+	<![endif]-->
+	<!-- Moengagae code deleted-->
+</head>
+
+<body class='' data-pageName='' data-ceePageName=''>
+	<input type="hidden" id="pincodeExpiryTimeListing" name="pincodeExpiryTimeListing" value="90" />
+
+<input type="hidden" id="closeShortlistId" name="closeShortlistId" value="false" />
+
+<input type="hidden" id="getBalanceSwitchEnabled" value="true" />
+
+<input type="hidden" id="animationEnabledSwitch" value="false" />
+
+<input type="hidden" id="animationLogoSrc" value="img/storeFrontFeaturedProductAdmin/12/NewYear150X45.gif" />
+<input type="hidden" id="dpExperimentVersion" value=""/>
+
+<input type="hidden" value='{"status":"success","items":{"tknbta":"69aaa40b50","tknlfa":"956e0caa94bc72294","tknmga":"a6b89","tkndlta":"b99b7b0a7afaef1","tkngma":"65e"},"journeyRestart":false}' id="alpha" />
+
+<input type="hidden"  id="webPasswordMessage" value="Password should have a minimum of 6 characters, at least 1 numeric and 1 alphabet" />
+<input type="hidden" value="utm_source,utm_medium,utm_campaign,utm_term,utm_content" id="dpUrlParams">
+<input type="hidden" value="utmSource,utmMedium,utmCampaign,utmTerm,utmContent" id="dpUrlParamsKeys">
+<input type="hidden" value="true" id="loadWebPImage">
+<input type="hidden" value="4000" id="cartToastTimeoutMili">
+
+<input type="hidden" value="true" id="dpWidgetLoggingSwitch">
+<input type="hidden" value="1500" id="dpWidgetLoggingInterval">
+
+
+<input type="hidden" value="60000" id= "dpWidgetClearWait">
+
+
+<input type="hidden" value="true" id="verticalSearchSwitch">
+
+<input type="hidden" value="false" id="shoppingListSwitch">
+<input type="hidden" value="Daily Needs" id="shoppingListCatLeftnav">
+<input type="hidden" value="3" id="maxFMCGQuantity">
+<script>
+	
+	var fbPixelLogging = 'true';
+	var googlePixelLogging = 'true';
+	var lazyLoadHeight = '350';
+	var jsLoggingEnabled = 'false';
+	var jsLoggingApi = '';
+	var dotBrandingFlag = 'true';
+	var webPincodeExperimentIsActive = 'false';
+	var webPincodeExperimentType = 'off';
+	var pincodeSalienceDelay = '1';
+	var webPincodeSalienceJourneyTime = '360';
+	var dotGlobalFlag = 'true';
+	var signupWithMobile = 'true';
+	var dotWebCheckoutDiffer = 'true';
+    var matrixUser = 'false';
+    var startTime = new Date().getTime(); 
+    var loadingTime = 0; var env = 'prod';
+    var staticRes = '';
+    var ajaxRes = '';
+    var httpPath = 'https://www.snapdeal.com';
+    var olarkId = '9095-842-10-8018';
+    var absoluteHttpPath = 'https://www.snapdeal.com';
+    var absoluteHttpsPath = 'https://www.snapdeal.com:443';
+    var pureHttpPath = 'https://www.snapdeal.com:443';
+    if (typeof Snapdeal == 'undefined') {Snapdeal = {};}; 
+    var https='443';
+    window.sdHttpPath = 'https://www.snapdeal.com';
+    var abVersion=1;
+    var abEnabled=true;
+    var abExpireDay=1;
+    var serverName='buyerfront-web-4015';
+    var fbPermissions='user_birthday,user_hometown,email,user_location,user_likes';
+    var fbFields='birthday,hometown,email,location,likes';
+    var fbAuthRequest='&auth_type=rerequest';
+    var fbAppId="689277371113314";
+    var googleAppId="36115742491-h38grsuuq7jilk484i69j84bmul8nst5.apps.googleusercontent.com";
+    var sdLoggerSwitch =  window.location.protocol === 'https:' ? 'true' == 'true' : 'true' == 'true' ;
+    var resendOtpDisableTime = parseInt("15");
+    resendOtpDisableTime = (resendOtpDisableTime > 0) ? resendOtpDisableTime : 0;
+    var globalConfigs = {
+    		
+    		"assetVersion" : "security160345103503689"
+    		
+    	};
+    var omnitureRequestType = "POST";
+</script>
+
+<script type="text/javascript">
+	var showOnloadFlag = parseInt("0");
+	/**	0 : Don't Show ,1 : Show only to new users ,2 : Show to all not logged */
+	if(typeof Snapdeal == "undefined")
+		Snapdeal = {};
+	// Set the configuration here for signupwidget
+	Snapdeal.signupWidConfig = {
+		onloadShowOnlyIfNewUser : showOnloadFlag == 1 ,
+		onloadShow : showOnloadFlag != 0  ,
+		cookieName : "snapdeal" ,
+		cookieNameFirstTime : "firstTimeVisit" ,
+		
+			loggedIn : false , 
+		
+		forceManual : false ,
+		targetUrl : "/product/prd-pu-tan-casual-long/%7B%7B=imageReplaceHttp(Snapdeal.getResourcePath(value.reducedImage))%7D%7D" ,
+		// Currently the code used in prod -- now used when no promo is sent
+		regMsgCode : 103 ,  
+		// Code when promo is sent on social signup
+		socialMsgCode : 1110 ,
+		// Code when promo is sent on normal signup
+		hasCouponMsgCode : 1112
+	};
+	// Google Ads related code -- required so that gpt.js can be lazy loaded
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+
+	// switches for various external components
+	Snapdeal = window.Snapdeal || {};
+	Snapdeal.componentSwitches = {};
+	Snapdeal.componentSwitches.searchClosed			= "false";
+	Snapdeal.componentSwitches.recSysClosed			= "true";
+	Snapdeal.componentSwitches.scoreClosed			= "false";
+	Snapdeal.componentSwitches.promoClosed			= "false";
+	Snapdeal.componentSwitches.cocofsClosed			= "false";
+	Snapdeal.componentSwitches.facebookClosed		= "false";
+	Snapdeal.componentSwitches.zendeskClosed 		= "false";
+	Snapdeal.componentSwitches.autoSuggestClosed 	= "false";
+	Snapdeal.componentSwitches.ebayClosed 			= "false";
+	
+	// switch for quick buy button
+	var disableQuickBuy = "false";
+	var isLocalizationEnabled = "";
+	var localizationHeaderState = "";
+	var selectedTab = ""
+	var activeProductTab = 	"";
+	var gpsf = false;
+	var partialSearch = '';
+	var openFlowFlag = 'true';
+	window.suggestmeyes_loaded = true;
+ </script><input type="hidden" value="fbpost,socialt,newsletter,retry,dropout,referral,inlink,affiliate,aff_prog" id="freeSource"/>
+	<input id='isHelpCenterUberExperienceSwitchEnabled' type="hidden" value="true">
+	<input type="hidden" id="globalSwitchForWalletCashback" value="true"/>
+	<input type="hidden" id="walletCashBackEffectivePriceName" value="Effective Price"/>
+	<script>
+function httpRequest(url, method, callback, isSync, data, timeout){
+    var xmlHttp = new XMLHttpRequest();
+    try {
+        xmlHttp = new XMLHttpRequest;
+    } catch (e) {
+        var msxml = ['MSXML2.XMLHTTP.3.0', 'MSXML2.XMLHTTP', 'Microsoft.XMLHTTP'];
+        for (var i = 0, len = msxml.length; i < len; ++i) {
+            try {
+                xmlHttp = new ActiveXObject(msxml[i]);
+                break;
+            } catch (e) {}
+        }
+    }
+    
+    if(!!timeout && !isSync){
+        if (typeof xmlHttp.timeout === "number") {
+            xmlHttp.timeout = timeout;
+        } else {
+            setTimeout(function () {
+                if (xmlHttp.abort) {
+                    xmlHttp.abort();
+                }
+            }, timeout);
+        }
+        xmlHttp.ontimeout = function(){
+            if (xmlHttp.abort) {
+                xmlHttp.abort();
+            }
+        }
+    }
+    
+    xmlHttp.open(method, url, isSync ? false : true);
+    
+    xmlHttp.setRequestHeader("Content-type", "application/json");
+    
+    if(!!data){
+        xmlHttp.send(data || null);        
+    }
+    
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+}
+</script>
+
+
+<div id="ceeExp" class="hidden"></div>
+    <script type="text/javascript">
+        var getCookie = function(cookie){
+            var cookie_start = document.cookie.indexOf(" "+cookie+"=");
+            if(cookie_start == -1){
+                if(document.cookie.indexOf(cookie+"=") == 0){
+                    cookie_start = 0;
+                }
+            }
+            var cookie_end  = document.cookie.indexOf(';', cookie_start);
+            cookie_start = cookie_start > 0 ? ++cookie_start : cookie_start;
+            var cookie = cookie_start > -1 ? document.cookie.substring(cookie_start+cookie.length+1, cookie_end) : "";
+            return cookie;
+        }
+        
+        var pin = getCookie('spin');
+    
+        var expData = {
+            event : document.body.getAttribute('data-ceePageName') || '',
+            appBrowserVersion : navigator.userAgent,
+            appPlatform : navigator.platform,
+            appType : 'WEB',
+            pincode : pin ? pin.split('-')[0] : '',
+            cookie  : getCookie('u'),
+            catUrl  : document.getElementById('categoryUrlSearch')? document.getElementById('categoryUrlSearch').value  : undefined,
+            pogId   : '',
+            requestMap : {
+                referrerURL : location.host + location.pathname,
+                queryParams : location.search,
+                keyword : document.getElementById('keyword')    ? document.getElementById('keyword').value      : undefined
+            }
+        };
+        
+        var callback = function(data){
+            try{
+                if(data){
+                    var response = JSON.parse(data);
+                    if(response.successful == true){                    
+                        var actionsCount = response.actions ? response.actions.length : 0;
+                        var scriptData = "";
+                        for(var i=0; i<actionsCount; i++){
+                            if('JS_action' == response.actions[i].templateStyle && 'JS_inline' == response.actions[i].templateSubStyle){
+                                scriptData += response.actions[i].data;
+                            }
+                        }
+                        document.getElementById('ceeExp').innerHTML = scriptData;
+                        var scripts = document.getElementById('ceeExp').getElementsByTagName('script');
+                        var scLen = scripts.length;
+                        for(var j=0; j<scLen; j++){
+                            eval(scripts[j].innerHTML);
+                        }
+                    }
+                }
+            }
+            catch(err){}
+        };
+        
+        if(!!expData.event){
+            httpRequest('/acors/web/getpageexperiments', 'POST', callback, false, JSON.stringify(expData));
+        }
+    </script>   
+<input type="hidden" value="0" id="enableCallme">
+
+	<script type="text/javascript">
+		var emi3MonthHoverJS = parseInt("5000",10);
+		var reglobeUrl = "snapdeal.reglobe.in";
+		var reglobeEnv = "PROD";
+	</script>
+	<script type="text/javascript">
+	if(navigator.appVersion.indexOf("Win")< 0){
+		document.write('<link rel="stylesheet" type="text/css" href="https://i2.sdlcdn.com/css/security160345103503689/metroUI/font.css">');
+	}
+	</script>
+
+<header>
+	<input type="hidden" id="firstHit" u="" />
+	
+    <div id="sdHeader" class="comp comp-header reset-padding" >
+        <div id="autoSuggestorVersion" style="display: none;">v2</div>
+<div id="appDL_popup" class="hidden"></div>
+<div id="signin_box" style="background: transparent"></div>
+
+	<div class="headerBar reset-padding">
+				<section class="homePageTopHooks-section dp-click-widgets">
+				 		<div class="topHookContainer dp-widget header_wrapper homePageSection" data-dpidt="prm" data-dpdit="h_lst" data-dpwlbl="Homepage Top Hook" data-dpcol="c" data-dpdat="prm_lst" data-dppos="0">
+		<span class="topHooks fastestDel lfloat fastestDelivery">	
+		India&#39;s fastest online shopping destination</span>
+		<span class="hook-section rfloat">
+				<span class="topHooks hooksContents dp-widget-link " data-index="1">					
+						<div class='top-hooks-icon'>
+						</div>
+						<a href="https://www.snapdeal.com/products/digital-entertainment" class="dp-widget-link hookLink">Gift Cards</a>
+							
+					</span>
+					<span class="topHooks hooksContents dp-widget-link helpCentrDiv" data-index="2">					
+						<div class='top-hooks-icon'>
+						</div>
+						<a href="javascript:void(0);" class="dp-widget-link hookLink">Help Center</a>
+							
+					</span>
+					<span class="topHooks hooksContents dp-widget-link " data-index="3">					
+						<div class='top-hooks-icon'>
+						</div>
+						<a href="https://sellers.snapdeal.com/" class="dp-widget-link hookLink">Sell On Snapdeal</a>
+							
+					</span>
+					<span class="topHooks hooksContents dp-widget-link " data-index="4">					
+						<div class='top-hooks-icon'>
+						<span class="displayLazy">
+								<i class="customHeaderIcon">
+									<img class="lazy-load" data-src="https://i4.sdlcdn.com/img/platinum09/downloadappicon2ndsep.png" />
+								</i>
+							</span>
+						</div>
+						<a href="http://www.snapdeal.com/offers/getsnapdealapp" class="dp-widget-link hookLink">Download App</a>
+							
+					</span>
+					</span>
+			<input type="hidden" class="dp-info-collect" value="[ {&#039;k2&#039;: &#039;https://www.snapdeal.com/products/digital-entertainment&#039;, &#039;k4&#039;: &#039;Gift Cards&#039;},  {&#039;k2&#039;: &#039;http://www.snapdeal.com/offers/sd-hdfc-card&#039;, &#039;k4&#039;: &#039;Help Center&#039;},  {&#039;k2&#039;: &#039;https://sellers.snapdeal.com/&#039;, &#039;k4&#039;: &#039;Sell On Snapdeal&#039;},  {&#039;k2&#039;: &#039;http://www.snapdeal.com/offers/getsnapdealapp&#039;, &#039;k4&#039;: &#039;Download App&#039;},  ]" />
+			</div>
+</section>
+		<div id='faqSearchHolder'>
+			<div id="faq_parent" class="faq_search_parent" style="display:none">
+        <div class="uberSearchBar">
+                <!--  Container that will be taken as parent for SideBar -->
+                <div class="faq_home_text"><span class="faq_user_name"></span>How can we help you?</div>
+                
+                <div class="faq_search_panal  no-scroll">
+                        <!-- Serach Box -->
+                        <div id="faq_search_Form" class="faq_search_form">
+                         <!-- Serach Button Icon On FAQ -->
+                                <button id="faq_hook_search_button" class="faq_serachform_button">
+                              
+                                            <i class="faq_search_icon"></i>
+                                        
+                                  </button>
+                        
+                                <input class="faq_hook_search_text" autofocus autocomplete="off"
+                                id="faq_hook_serach_text" type="text" />
+                               
+                                <button class="faq_search_arrow">
+                              
+                                     <i class="faq_search_arrow_icon"></i>
+                                        
+                                  </button>
+                        </div>
+                        <!--  FAQ List Parent -->
+                        <div id="faq_hook_faq_container_content" class=" faq_hook_faq_container_content no-scroll">
+                            <div class="noResultUI hidden">
+                                            Sorry!! No result found for "OK".Please press enter for search.
+                                </div>
+                                <!-- FAQ SubTitle -->
+                                <div class="faq_search_title_wrapper">
+                                        <h3 id="faq_hook_faq_subtitle"></h3> </div>
+                                <!--FAQ List-->
+                                <ul id="faq_hook_top_faq_list_items" class="scrollbar faq_search_list_new"></ul>
+                        </div>
+                </div>
+                <!-- FAQ Footer -->
+                <div class="faq_search_footer">
+                        <div class="h-center v-center">
+                                    <a class="help_centre_link" href="https://www.snapdeal.com/helpcenter?redirectFrom=hook">
+                                                                Visit Help Center
+                                    </a>
+                        </div>
+                </div>
+        </div>
+</div>
+</div>
+    <input type="hidden" value="8" id="topSearchesId" name="topSearchesId" />
+<input type="hidden" value="8" id="recentSearchesLimit" />
+<input type="hidden" value="true" id="recentSwitch" />
+<input type="hidden" value="20" id="defaultProdCount" />
+<input type="hidden" value="https://www.snapdeal.com/app/get/json/autoSuggestions" id="autosuggestorApiUrl" name="autosuggestorApiUrl"/>
+<input type="hidden" value="true" id="autocompleteEnabled" name="autocompleteEnabled"/>
+<input type="hidden" value="2" id="autocompleteEnabledChars" name="autocompleteEnabledChars"/>
+<input type="hidden" value="10" id="maxAutoSuggestions" name="maxAutoSuggestions"/>
+<input type="hidden" value="1" id="autoSuggestorTwoContexts" name="autoSuggestorTwoContexts"/>
+<input type="hidden" value="true" id="newAutoSuggestor" name="newAutoSuggestor"/>
+<input type="hidden" value="true" id="persistAutoSugg" name="persistAutoSugg"/>
+<input type="hidden" value="true" id="autoSuggestDisplay2" name="autoSuggestDisplay2"/>
+
+<input type="hidden" value="true" id="autoSuggestTimeoutWeb" name="autoSuggestTimeoutWeb"/>
+
+<input type="hidden" value="5" id="recentReachesCount"/>
+<input type="hidden" value="true" id="recentReachesSwitchWeb"/>
+
+<input type="hidden" value="15" id="localStrgCnt"/>
+
+<input type="hidden" value="2" id="rcntAutoSugg"/>
+
+<div class="topBar  headWrapper  top-freeze-reference-point">
+<div class="header_wrapper">
+
+	 	<div class="logoWidth lfloat col-xs-3 reset-padding">
+
+
+	 		<a class="notIeLogoHeader" href="https://www.snapdeal.com"><img title="Snapdeal" class="notIeLogoHeader aspectRatioEqual sdLogo cur-pointer" height="28" width="132" src="https://i3.sdlcdn.com/img/snapdeal/darwin/logo/sdLatestLogo.svg"/></a>
+					<a class="ieLogoHeader" href="https://www.snapdeal.com">
+				 			<img title="Snapdeal" class="ieLogoHeader aspectRatioEqual sdLogo cur-pointer" height="28" width="132" />
+				 	</a>
+				<div class="menuIconBar  "><i class="sd-icon sd-icon-menu"></i></div>
+	 	</div>
+
+	 	<div class="col-xs-14 search-box-wrapper">
+ 			<div class="overlap"></div>
+	 		<input
+		            	autocomplete="off"
+		            	name="keyword"
+		            	type="text"
+		            	class="col-xs-20 searchformInput keyword"
+		            	id ="inputValEnter"
+		            	onkeypress="clickGo(event, this)"
+		            	placeholder="Search products & brands"
+		            	value=""
+	            	/>
+	            	<div class="inputValEntered hidden">
+	            			 			</div>
+		 		<button class="searchformButton col-xs-4 rippleGrey" onclick="submitSearchForm('go_header');">
+            	<span class="searchTextSpan"><i class="sd-icon sd-icon-search-under-catagory lfloat"></i>Search</span>
+            	<!--<i class="sd-icon sd-icon-search"></i> -->
+            </button>
+
+			<div id="topsearches" class="hidden">
+					<div class="topSearch-container">
+		                <div class="topsearch-suggestionBox">
+						     <ul class="topSearchCont recentSearchContainer hidden">
+				                   <div class="searchContainer recentSearches">
+										<i class="sd-icon sd-icon-clock"></i>
+										<span class="topsearches recentSearc">Recent Searches</span>
+										<span class="clearRecentSearches">CLEAR<i class="sd-icon sd-icon-delete-sign"></i></span>
+									</div>
+
+							</ul>
+						     <ul class="topSearchCont trendingSearchContainer ">
+				                   	<div class="searchContainer">
+										<i class="sd-icon sd-icon-android-trending-up-512px iconTrend"></i>
+										<span class="topsearches">Trending Searches</span>
+		 							 </div>
+
+				                   		<li data-index="1">
+				                       			<div>
+													<a class="subDefault" href="https://www.snapdeal.com/search?clickSrc=top_searches&keyword=white shoes&categoryId=0&vertical=p&noOfResults=20&SRPID=topsearch">
+															white shoes</a>
+												</div>
+										 	</li>
+										 <li data-index="2">
+				                       			<div>
+													<a class="subDefault" href="https://www.snapdeal.com/search?clickSrc=top_searches&keyword=jewellery set&categoryId=0&vertical=p&noOfResults=20&SRPID=topsearch">
+															jewellery set</a>
+												</div>
+										 	</li>
+										 <li data-index="3">
+				                       			<div>
+													<a class="subDefault" href="https://www.snapdeal.com/search?clickSrc=top_searches&keyword=vivo phone mobile&categoryId=0&vertical=p&noOfResults=20&SRPID=topsearch">
+															vivo phone mobile</a>
+												</div>
+										 	</li>
+										 <li data-index="4">
+				                       			<div>
+													<a class="subDefault" href="https://www.snapdeal.com/search?clickSrc=top_searches&keyword=earrings&categoryId=0&vertical=p&noOfResults=20&SRPID=topsearch">
+															earrings</a>
+												</div>
+										 	</li>
+										 <li data-index="5">
+				                       			<div>
+													<a class="subDefault" href="https://www.snapdeal.com/search?clickSrc=top_searches&keyword=denim jacket men&categoryId=0&vertical=p&noOfResults=20&SRPID=topsearch">
+															denim jacket men</a>
+												</div>
+										 	</li>
+										 <li data-index="6">
+				                       			<div>
+													<a class="subDefault" href="https://www.snapdeal.com/search?clickSrc=top_searches&keyword=bluetooth headset&categoryId=0&vertical=p&noOfResults=20&SRPID=topsearch">
+															bluetooth headset</a>
+												</div>
+										 	</li>
+										 <li data-index="7">
+				                       			<div>
+													<a class="subDefault" href="https://www.snapdeal.com/search?clickSrc=top_searches&keyword=boat bluetooth headphone&categoryId=0&vertical=p&noOfResults=20&SRPID=topsearch">
+															boat bluetooth headphone</a>
+												</div>
+										 	</li>
+										 <li data-index="8">
+				                       			<div>
+													<a class="subDefault" href="https://www.snapdeal.com/search?clickSrc=top_searches&keyword=samsung mobile phone&categoryId=0&vertical=p&noOfResults=20&SRPID=topsearch">
+															samsung mobile phone</a>
+												</div>
+										 	</li>
+										 </ul>
+							  </div>
+					</div>
+
+				</div>
+
+        	<div class="searchAutoSuggstn">
+           	</div>
+			<script id="searchAutoSuggstn" type="text/x-dot-template">
+					<div class="auto-suggestion-v12 autosuggestion-revamp">
+	
+				    <div class="suggestionBox topSearch-container">
+				   	<ul class="topSearchCont recentAutoSearchContainer autoRecentSearchCont hidden suggestionList_menu {{=it.responseAutosuggestions.length  === 0 ? 'bordr-btm': ''}}">
+				    <div class="marT10"></div>
+									
+					</ul>
+				      <ul class="suggestionList_menu">
+						{{? it.autoSuggestval ==="true" && it.autoSuggestcntx >0}}
+					        {{~it.responseAutosuggestions:value:index}}
+				              <li class="suggestionList_menuitem structuredList first {{=it.responseAutosuggestions.length  === index+1 ? '': 'firstItem'}}">
+				               <div class="first_menuitem suggestionList_menuitem" data-index="0">
+								<a class="subdiv structured searchKeyWord" type="category" categoryxpath="{{=value.categoryXPath}}" data-labelname="{{=value.keyword}}">
+								    {{=value.keyword}} 
+                                    {{? value.cn}}<span class="suggestion-in">in</span>&nbsp;<span class="highlighted_text">{{=value.cn}}</span>{{?}}
+								</a>
+							   </div>
+				             </li>                             
+						   {{~}}
+                        {{?}}
+						{{? it.autoSuggestval ==="false" }}
+                         {{~it.responseAutosuggestions:value:index}}
+						 {{? value.keywordcount ===1}}
+						  <li class="suggestionList_menuitem structuredList first">
+				               <div class="first_menuitem suggestionList_menuitem" data-index="">
+								<a class="subdiv structured searchKeyWord" type="category"  data-labelname="{{=value.keyword}}">
+								   {{=value.keyword}}
+								</a>
+							   </div>
+								<ul class="contextList" keyword="{{=value.keyword}}">                              
+                                </ul>
+                             </li> 
+							 {{?}}
+                           {{~}}  
+                        {{?}}
+						  {{~it.unstructured:value:index}}
+								<li class="suggestionList_menuitem unstructuredList" data-index="index">
+									<a class="subdiv unStructured searchKeyWord" type="keyword" categoryxpath="{{=value.categoryXPath}}" data-labelname="{{=value.keyword}}">
+									{{=value.keyword}}
+									</a>
+								</li>
+						  {{~}}
+				      </ul>
+		 </div>
+</div>
+</script>
+	        	<!--<div class="cross-btn hidden">
+			        <i class="sd-icon sd-icon-delete-sign"></i>
+			        <p>Close</p>
+				</div>-->
+	 		</div>
+
+	 		<div class="col-xs-5 reset-padding header-right rfloat">
+	 		<div class="cartContainer col-xs-11 reset-padding">
+	 			<div class="cartInner">
+	 				<span class="cartTextSpan">Cart</span>
+					<i class="sd-icon sd-icon-cart-icon-white-2"><span class="cartQuantity hidden">0</span></i>
+				</div>
+			</div>
+			<div class="cartProductInfoModal hidden">
+				<span class="cartModalArrow"></span>
+				<div class="overFlowMoreItems">
+					<div class="cartProduct lfloat">
+						<img class="lazy-load cartProductImg" data-src="">
+					</div>
+					<div class="cartProductInfo rfloat">
+						 <p class="cartItemHeading">Item(s) Added To cart</p>
+		 				 <p class="cartProductInfoName"></p>
+						 <p>Qty.<span class="cartInfoQty"></span></p>
+					</div>
+				</div>
+				<div id="cartViewBtn" class="btn viewAllBtn cartViewAllBtn">VIEW ALL</div>
+			</div>
+			<div class="myAccountTab accountHeaderClass col-xs-13 reset-padding">
+			     <div class="accountInner">
+			  		<span class="accountUserName col-xs-12 reset-padding">Sign In</span>
+					  <span class="accountUserImg col-xs-9">
+					  		<img class="hidden imgUser">
+					  		<i class="sd-icon sd-icon-user"></i>
+					  </span>
+					  <i class="sd-icon sd-icon-menu2"></i>
+					  <div class="dropdownWrapper hard-hidden">
+			      			<div class="dropdownAccount hidden">
+			      				<div class="accountList">
+										<ul>
+										<li><a href="https://www.snapdeal.com/myorders"><i class="order-icon footerIconsImg"></i>Orders</a></li>
+										<li><a href="https://www.snapdeal.com/mywishlist"><i class="shortlist-icon footerIconsImg"></i>Shortlist</a></li>
+										<li><a href="https://www.snapdeal.com/mysdcash" class="sd-information"><i class="sd-cash-icon footerIconsImg"></i><span class="sd-cash">SD Cash</span><div class="sd-balance"></div></a></li>
+										<li><a href="https://www.snapdeal.com/myEGiftVoucher"><i class="gift-icon footerIconsImg"></i>E-Gift Voucher</a></li>
+										<li class="accountInfoNonLoggedIn logoutNew">
+											<a href="https://www.snapdeal.com/logout" class="accountBtn rippleWhite sign logout-account">Logout</a>
+										</li>
+										</ul>
+									</div>
+
+							</div>
+							<div class="dropdownAccountNonLoggedIn hidden">
+								<div class="accountList">
+									<ul>
+										<li><a href="https://www.snapdeal.com/myorders"><i class="account-icon footerIconsImg"></i>Your Account</a></li>
+										<li><a href="https://www.snapdeal.com/myorders"><i class="order-icon footerIconsImg"></i>Your Orders</a></li>
+										<li><a href="https://www.snapdeal.com/mywishlist"><i class="shortlist-icon footerIconsImg"></i>Shortlist</a></li>
+										<li><a href="https://www.snapdeal.com/mysdcash"  class="sd-information"><i class="sd-cash-icon footerIconsImg"></i>SD Cash</a></li>
+									</ul>
+								</div>
+								<div class="accountInfoNonLoggedIn">
+						 			<p class="newUser"><span>If you are a new user</span></p>
+						 			<span class="newUserRegister">Register</span>
+						 			<span class="accountBtn btn rippleWhite"><a href="https://www.snapdeal.com/login">login</a></span>
+						 		</div>
+
+							</div>
+					</div>
+			    </div>
+			</div>
+	 	</div>
+	 		 	<div class="onlyforhelpcenter hidden row" style= "clear: both;">
+	 	<div class="col-xs-3 logoWidth title lfloat">
+<a href="/" style= "text-decoration: none;">
+<span style="border-right: 1px solid #e0e1e1;
+    padding-right: 10px; font-size:25px;">  <i class="sd-icon sd-icon-home" style= "color:white;"></i> </span>
+    </a>
+   <a href="/helpcenter" style= "text-decoration: none;">
+
+    <span style=" margin-left: 10px; color:white; font-size:20px;">     Help Center </span>
+
+ </a>
+        </div>
+
+
+	 	  <div class="col-xs-18">
+    <div class="row banner_text">How can we help you?</div>
+
+
+
+ <div id="faq_search_Form" class="row faq_autosuggest_form">
+                            <input class="col-xs-21 faq_autosearch_text" autocomplete="off" placeholder="Please type your query here. e.g. I want to track my order."  id='faq_search_text' name="faq_search_text" type="text" />
+                            <button id='faq_delete_button' class="col-xs-3 faq_autosearch_button hidden">
+                                <span id="faq_deleteicon">
+                                            <i class="iconcolor sd-icon sd-icon-delete-sign "></i>
+                                 </span>
+                            </button>
+                            <button id='faq_search_button' class="col-xs-3 faq_autosearch_button">
+                              <i class="faq_search_arrow_icon"></i>
+                            </button>
+                            <div id="faq_top_faqs" class="col-xs-24 reset-padding faq_top_faqs hidden">
+                                <div class="autoSuggestor-container-shadow">
+                                    <div class="faqsearch-suggestionBox ">
+                                        <ul id='faq_autosuggest_searchlist' class="no-bullet-list">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+</div>
+    </div>
+	 	<div class="cartToastMsg" id="cartToastMsg" style="display : none;">
+	<div class="cTMSArrow">
+		<span></span>
+	</div>
+	<div class="cTMSProductInfo">
+		<div class="cTMSucces">
+			</div>
+		<div class="cTMError">
+			<p>Something went wrong. Please refresh the page and try again.</p>
+		</div>
+	</div>
+</div></div>
+</div>
+<div class="cartToastMsg" id="cartToastMsg" style="display : none;">
+	<div class="cTMSArrow">
+		<span></span>
+	</div>
+	<div class="cTMSProductInfo">
+		<div class="cTMSucces">
+			</div>
+		<div class="cTMError">
+			<p>Something went wrong. Please refresh the page and try again.</p>
+		</div>
+	</div>
+</div></div>
+ <div class="header-exchange-exceeding hidden">
+	<p>Exchange offer not applicable. New product price is lower than exchange product price</p>
+</div>
+<div class="header-exchange-BfsAndEx hidden">
+	<p>Please check the updated No Cost EMI details on the payment page</p>
+</div>
+
+<div class="header-exchange-BfsAndExNonServiceable  hidden">
+	<p>Exchange offer is not applicable with this product</p>
+</div>
+
+<div class="header-exchange-bfsExchangeNotClubbed  hidden">
+	<p>Exchange Offer cannot be clubbed with Bajaj Finserv for this product</p>
+</div>
+
+<div class="header-exchange-priceChangedDueTOBFS  hidden">
+	<p>Product price & seller has been updated as per Bajaj Finserv EMI option</p>
+</div>
+<div class="header-exchange-exchangeAndBFSPriceChange  hidden">
+	<p>Please apply exchange offer again</p>
+</div>
+
+ <div class="header-shortlist hidden">
+<p>Your item has been added to Shortlist.</p>
+<span><a href="https://www.snapdeal.com/mywishlist">View All</a></span></div>
+
+<div class="header-shoppinglist hidden">
+<p>Your Item has been added to Shopping List</p>
+<span><a href="https://www.snapdeal.com/shopping-list">View All</a></span>
+<div class="clear"></div>
+</div>
+
+
+<form autocomplete="off" id="formSearch" class="searchform" name="formSearch" action="https://www.snapdeal.com/search" method="get">
+    <input type="hidden" value="false" id="rightNavFlag" />
+    <input type="hidden" value="false" id="redirToMatchingSugg" />
+    <input id="keyword" name="keyword" type="hidden" autocomplete="off" value=""/>
+    <input type="hidden" id="santizedKeyword" name="santizedKeyword" value=""/>
+    <input type="text" style="display: none;" />
+    <input type="hidden" name="catId" id="catId" value=""/>
+    <input type="hidden" name="categoryId" id="categoryId" value=""/>
+    <input type="hidden" name="suggested" id="suggested" value="false"/>
+    <input type="hidden" name="vertical" id="vertical" value=""/>
+    <input type="hidden" name="noOfResults" id="noOfResults" value="20"/>
+    
+	<input type="hidden" name="searchState" id="searchState" value="" />
+
+    <input type="hidden" name="clickSrc" id="clickSrc" value="" />
+    <input type="hidden" name="lastKeyword" id="lastKeyword" value="" />
+    <input type="hidden" name="prodCatId" id="prodCatId" value="" />
+    <input type="hidden" name="changeBackToAll" id="changeBackToAll" value="false"/>
+    <input type="hidden" name="foundInAll" id="foundInAll" value="false"/>
+    <input type="hidden" name="categoryIdSearched" id="categoryIdSearched" value=""/>
+    <input type="hidden" name="cityPageUrl" id="searchedCity" value="" />
+    <input type="hidden" name="categoryUrl" id="categoryUrlSearch" value=""/>
+    <input type="hidden" id="url" name="url" value="" />
+    <input type="hidden" id="utmContent" name="utmContent" value="" />
+    <input type="hidden" id="dealDetail" name="dealDetail" value="" />
+</form>
+
+				
+	<input type="hidden" name="searchState" id="searchState" value="" />			
+<input type="hidden" id="uidField" name="trackingUid" value="0" />
+	<input type="hidden" id="sharerEmail" name="sharerEmail" value="0" />
+<script type="text/javascript">
+window.fbLoginId = 689277371113314;
+</script></div>
+    </header>
+	
+
+<div class="pageWrapper">
+                <div class="comp comp-breadcrumb">
+                    <div id="breadCrumbWrapper" class="notVisible bread-crumb ">
+		<div class="notVisible" id='breadCrumbWrapper2'>
+			<div id='breadCrumbLabelIds' class='hide'>
+				 </div>	
+			</div>
+	<div class="clear"></div>
+</div>
+
+
+<script type='text/jqtmpl' id='breadCrumbDropdownItemTmpl'>
+{{each data}}
+{{if bCrumbOmni ="$value.name" }} {{/if}}
+<li>
+	<a class="bCrumbOmniTrack" omniID="BD=home_${$value.name}"
+	{{if isAbs }} href="${$value.link}" {{else}}  href='/products/${$value.link}'  {{/if}}
+ 		style='text-decoration:none;'>
+		<span>${$value.name}</span>
+		<span>(${$value.count})</span>
+	</a>
+</li>
+{{/each}}
+</script>
+<script type='text/jqtmpl' id='breadCrumbItemTmpl'>
+{{each data}}
+	{{if bCrumbOmni ="$value.name" }} {{/if}}
+	{{if bcrumbLink = $value.url}}{{/if}}
+	{{if bcrumbName = $value.name}}{{/if}}
+				<i class="sd-icon sd-icon-next"></i>
+					{{if bcrumbLink}}
+						<div itemscope itemtype="https://data-vocabulary.org/Breadcrumb" class="containerBreadcrumb">
+							<a class="bCrumbOmniTrack" 
+								{{if $value.isAbs }} href="${bcrumbLink}"  {{else}} href="/products/${bcrumbLink}"  {{/if}}
+								omniID="BD=home_${bcrumbName}" itemprop="url" label="{{html bcrumbName}}">
+								<span itemprop="title">{{html bcrumbName}}</span>
+							</a>
+						</div>
+					{{else}}
+						<div class="containerBreadcrumb">
+							<span class="active-bread" title="${bcrumbName}">${bcrumbName}</span>
+					{{/if}}
+						</div>
+	{{if lastBCrumb = $value }} {{/if}}
+{{/each}}
+</script></div>
+            </div>
+<div id="content_wrapper" class="comp-content-wrapper materialDesignRevamp">
+	<div class="autoOverlay"></div>
+	<input type='hidden' id='homePageType' value=''/>
+
+<div class="leftnavOverlay"></div>
+<div class="dp-click-widgets">
+<div id="leftNavMenuRevamp" class="  hidden  dp-widget lfloat catNavSection" data-dpidt="catside_nav" data-dpdit="v_lst" data-dpwlbl="Left Nav" data-dpcol="l" data-dpdat="cat_lst">
+  <div class="leftNavWrapperRevamp">
+	<div class="hgtHackLeftNav20"></div>
+	<div class="leftNavigationLeftContainer expandDiv">
+		<ul class="nav smallNav">
+			<input type="hidden" class="dp-info-collect" value="[ ]" />
+			</ul>
+	</div>	
+</div>
+</div>
+</div><div id="internal-content" class='pageWrapper'>
+			<div align="center">
+						<img src="https://i4.sdlcdn.com/img/error/error401.jpg">
+							</div>
+				</div>
+	<div id="sidebar_modal_right" class="sidebar rightside bigwidth">
+    <div class="sidebaroverlay"></div>
+    <div class="sidebarin">
+    <div align="center"  class="sd-loader hidden" >
+            <img class="js_svgLoader" lazySrc="https://i2.sdlcdn.com/img/sdDarwinLoader.svg" 
+            onerror="this.src='https://i1.sdlcdn.com/img/revamp/cyclicLoader.gif'; this.onerror=null;" height="32" width="32"/>
+    </div>
+        <div class="close close1 marR10"><i class="sd-icon sd-icon-delete-sign"></i></div>
+        <div class="sidebarin-heading">
+        	<h3></h3>
+        </div>
+        <div class="sidebarin-content">
+        </div>
+        
+    </div>
+</div>
+<div class="common-modal hidden">
+  <!-- <div class="common-modal-cover"></div> -->
+  <div class="common-modal-container">
+	  <div class="common-modal-wrapper">
+	  	<div class="cm-loader-overlay hidden"></div>
+	  	<div align="center"  class="sd-loader hidden common-modal-loader" >
+            <img class="js_svgLoader" lazySrc="https://i2.sdlcdn.com/img/sdDarwinLoader.svg" 
+            onerror="this.src='https://i1.sdlcdn.com/img/revamp/cyclicLoader.gif'; this.onerror=null;" height="32" width="32"/>
+	    </div>
+		<div class="common-modal-close"><i class="sd-icon sd-icon-delete-sign"></i></div>
+		<div class="common-modal-content-block">
+			<div class = "common-modal-header">
+	 			<span class = "common-modal-heading">Return form will be sent to your email Id: </span>
+			</div>
+			<div class="common-modal-content">
+						
+			</div>
+		</div>
+	  </div>
+  </div>  
+</div>	</div>
+	<input type="hidden" id="isDPLoggigEnabled" name = "isDPLoggigEnabled" value = "true" />
+<input type="hidden" id="initShowCart" value="" />
+
+<div id="cartModal" class="modal-box fade-animation" style="display: none;">
+	
+	
+</div>
+<div id="cartRemoveBundle" style="display: none;">
+        <h3 class="bundle-removal-heading">Remove Item/s</h3>
+        <span class="icon-font-grey-size24 cancel-bundle"> 
+            <i class="sd-icon sd-icon-delete-sign"></i>
+        </span>
+        <h4 class="bundle-removal-sub-heading">Remove below items from the cart</h4>
+        <ol type="1" class="bundle-removal-list"></ol>
+        <button class="remove-bundle-confirm btn ripple-white" type="button">Confirm</button>
+        <button class="btn ripple-white rfloat cancel-bundle-popup" type="button">Cancel</button>
+    </div> 
+    <div id="bundleCover" > </div>
+   <div class="searcharea-overlay hidden"></div>
+	<div class="loaderProgress toploader hidden"></div>
+	<div id="sdFooter" >
+	<div class="borderBottom">
+		<div class="row upperContent-footer">
+	 		<a href="https://www.snapdeal.com/page/terms" target="_blank" >
+	 		<div class="col-xs-6 individualTupple">
+	 			<div class="sdIconContainer">
+					<i class="paymentIcon lazyBg footerIconsImg"></i>
+				</div>
+	 			<div class="tuppleText">
+	 				<p class="top-heading">100% Secure Payments</p>
+	 				<p class="subText mt12">All major credit & debit</p>
+	 				 <p class="subText">cards accepted</p>
+	 			</div>
+	 		</div>	
+	 		</a>
+	 		<a href="https://www.snapdeal.com/page/TrustPay" target="_blank">
+	 		<div class="col-xs-6 individualTupple">
+		 			<div class="sdIconContainer"><i class="trustpayIcon lazyBg footerIconsImg"></i></div>
+		 			<div class="tuppleText">
+		 				<p class="top-heading ">TrustPay</p>
+		 				<p class="subText mt12">100% Payment Protection. Easy</p>
+		 				 <p class="subText">Return Policy </p>
+		 			</div>
+		 	</div>		
+		 	</a>
+	 		<a href="https://www.snapdeal.com/help?redirectFrom=footerstrip" target="_blank" >
+	 			<div class="col-xs-6 individualTupple">
+	 			<div class="sdIconContainer"><i class="customerCareIcon lazyBg footerIconsImg"></i></div>
+	 			<div class="tuppleText">
+	 				<p class="top-heading ">Help Center</p>
+	 				<p class="subText mt12">Got a question? Look no further.</p>
+	 				<p class="subText">Browse our FAQs or submit your query here.</p>
+	 			</div>
+	 			</div>
+	 		</a>
+		 	<a href="https://www.snapdeal.com/offers/getsnapdealapp" target="_blank">
+		 			<div class="col-xs-6 individualTupple">
+		 			<div class="sdIconContainer"><i class="shoponGoIcon lazyBg footerIconsImg"></i></div>
+		 			<div class="tuppleText">
+		 				<p class="top-heading ">Shop on the Go</p>
+		 				<p class="subText mt12">Download the app and get exciting</p>
+		 				<p class="subText">app only offers at your fingertips</p>
+		 			</div>
+		 			</div>
+		 	</a>
+	 	</div>
+ 	</div>	
+ 	<div class="middleContent-footer">
+ 		<div class="middleTop row">
+ 		<div class="footer-inner">
+ 		<div class="col-xs-5">
+										<div class="middle-heading">Policy Info</div>
+										<ul class="middle-content">
+											<li><a class="underLineOnHover" href="https://www.snapdeal.com/page/privacy-policy">Privacy Policy</a></li>
+												<li><a class="underLineOnHover" href="https://www.snapdeal.com/page/terms-of-sale">Terms of Sale</a></li>
+												<li><a class="underLineOnHover" href="https://www.snapdeal.com/offers/terms-of-use">Terms of Use</a></li>
+												<li><a class="underLineOnHover" href="https://www.snapdeal.com/page/abusePolicy">Report Abuse & Takedown Policy</a></li>
+												</ul>
+									</div>
+								<div class="col-xs-4">
+										<div class="middle-heading">Company</div>
+										<ul class="middle-content">
+											<li><a class="underLineOnHover" href="https://www.snapdeal.com/page/about-us">About Us</a></li>
+												<li><a class="underLineOnHover" href="https://www.snapdeal.com/page/core-values">Core Values</a></li>
+												<li><a class="underLineOnHover" href="https://jaspercareers.peoplestrong.com/">Careers</a></li>
+												<li><a class="underLineOnHover" href="http://blog.snapdeal.com/">Blog</a></li>
+												<li><a class="underLineOnHover" href="https://www.snapdeal.com/info/sitemap">Sitemap</a></li>
+												</ul>
+									</div>
+								<div class="col-xs-4">
+										<div class="middle-heading">Snapdeal Business</div>
+										<ul class="middle-content">
+											<li><a class="underLineOnHover" href="https://play.google.com/store/apps/details?id=com.snapdeal.main&hl=en_IN">Shopping App</a></li>
+												<li><a class="underLineOnHover" href="http://sellers.snapdeal.com/">Sell on Snapdeal</a></li>
+												<li><a class="underLineOnHover" href="https://ads.snapdeal.com/">Advertise on Snapdeal</a></li>
+												<li><a class="underLineOnHover" href="mailto:mediarelations@snapdeal.com">Media Enquiries</a></li>
+												<li><a class="underLineOnHover" href="https://affiliate.snapdeal.com/">Be an Affiliate</a></li>
+												</ul>
+									</div>
+								<div class="col-xs-4">
+										<div class="middle-heading">Need Help ?</div>
+										<ul class="middle-content">
+											<li><a class="underLineOnHover" href="https://www.snapdeal.com/faq/faqhome">FAQ</a></li>
+												<li><a class="underLineOnHover" href="https://www.snapdeal.com/faq/faqCustomerCare">Contact Us</a></li>
+												<li><a class="underLineOnHover" href="https://www.snapdeal.com/products/women-apparel">Online Shopping</a></li>
+												</ul>
+										<i class="originalalityfooterIcon lazyBg footerIconsImg hide"></i>
+									</div>
+								<div class="col-xs-6 row">
+					<div class="middle-heading subscribeHead">Subscribe</div>
+					<input autocomplete="off" name="keyword" type="text" class="col-xs-15 subscribeInputBox"  placeholder="Your email address">
+					<button class="col-xs-7 btn btn-theme-secondary subscribeBtn reset-padding">Subscribe</button>
+					<div class="sucessfulSubscribe hidden">Succesfully Subscribed</div>
+					<div class="errorSubscribe hidden">Something went wrong. Please try again!</div>
+					<div class="errorSubscribeEmail hidden"> Please enter a valid email address.</div>
+					<p class="registerSubscribeText col-xs-24 mt12 reset-padding">Register now to get updates on promotions and </p>
+					<p class="registerSubscribeText col-xs-24 reset-padding">coupons. <span><a href="https://www.snapdeal.com/offers/getsnapdealapp">Or Download App</a></span></p>
+				</div>
+				</div>
+ 		</div>
+ 		<div class="middleBottom clearfix">
+ 		<div class="footer-inner">
+			<div class="col-xs-10 middleBottomFooter">
+				<p>Payment</p>
+					<div class="middleBottomFooterImgs">
+					   <i class="visaIcon lazyBg footerIconsImg"></i>
+					   <i class="amexIcon lazyBg footerIconsImg"></i>
+					   <i class="mastercardIcon lazyBg footerIconsImg"></i>
+					   <i class="clubIcon lazyBg footerIconsImg"></i>
+   					   <i class="cashondeliveryIcon lazyBg footerIconsImg"></i>
+					   <i class="neftbankIcon lazyBg footerIconsImg"></i>
+				  </div>
+			</div>
+			<div class="col-xs-7 middleBottomFooter">
+			  		<p>Connect</p>
+					<div class="middleBottomFooterImgs footerConnectImgs">
+						 <a href="https://www.facebook.com/Snapdeal"  target="_blank" >
+							<i class="facebookfooterIcon lazyBg footerIconsImg"></i>
+						</a>
+						<a href="https://twitter.com/snapdeal" target="_blank" >
+							<i class="twitterfooterIcon lazyBg footerIconsImg"></i>
+						</a>
+						<a href="https://www.youtube.com/user/snapdeal"  target="_blank" >
+							<i class="youtubefooterIcon lazyBg footerIconsImg"></i>
+						</a>
+						<a href="https://instagram.com/snapdeal/?hl=en"  target="_blank" >
+							<i class="instagramfooterIcon lazyBg footerIconsImg"></i>
+						</a>
+						<a href="https://www.pinterest.com/snapdeal/"  target="_blank" >
+							<i class="pinterestfooterIcon lazyBg footerIconsImg"></i>
+						</a>
+				  </div>
+			   </div>
+			   </div>
+ 			</div>
+ 	
+ 	
+		<div class="footerCopyText clearfix">
+ 			<div class="footer-inner">
+				<!--<div class="footer-logo lazy-load" data-bgsrc="https://i1.sdlcdn.com/img/metroUI/footer/footerSdLogo.png"></div>-->
+				<div class="lfloat">Copyright &#169; 2020, Snapdeal Private Limited (formerly Jasper Infotech Private Limited). All Rights Reserved</div>
+				<div class="rfloat heartLine">Made with<i class="sd-icon sd-icon-like heartIcon"></i>in India</div>
+			</div>
+		</div>
+	</div>
+</div>	
+<div id="newSubscriber"></div>
+	
+	<script>
+		var isPersonalizedHP = "";
+		var hpCatWidgetsCount = parseInt("",10);
+	</script>
+    <script type="text/javascript" src="https://i3.sdlcdn.com/js/security160345103503689/jquery/jquery.17All.v2.min.js"></script>
+    <script type="text/javascript" src="https://i1.sdlcdn.com/js/security160345103503689/snapdeal/base.min.js"></script>
+				<input id="crossSellingEnabled" type="hidden" value="false"></input>
+	<input type="hidden" name="affiliate" id="aff" value=""/>
+	<input type="hidden" name="logServiceUrl" id="logServiceUrl" value="http://127.0.0.1:9250" />
+	<input type="hidden" id="santizedKeyword" name="santizedKeyword" value=""/>
+	<input type="hidden" name="catId" id="catId" value="" />
+   	<input type="hidden" name="categoryId" id="categoryId" value="" />
+   	<input type="hidden" name="suggested" id="suggested" value="false" />
+	<input type="hidden" name="vertical" id="vertical" value="" />
+	<input type="hidden" name="noOfResults" id="noOfResults" value="20" />
+	<input type="hidden" name="clickSrc" id="clickSrc" value="" />
+	<input type="hidden" name="lastKeyword" id="lastKeyword" value=""/>
+	<input type="hidden" name="prodCatId" id="prodCatId" value="" />
+	<input type="hidden" name="changeBackToAll" id="changeBackToAll" value="false" />
+	<input type="hidden" name="foundInAll" id="foundInAll" value="false" />
+	<input type="hidden" name="categoryIdSearched" id="categoryIdSearched" value="" />
+	<input type="hidden" name="cityPageUrl" id="searchedCity" value="" />
+    <input type="hidden" id="url" name="url" value=""/>		
+    <input type="hidden" id="utmContent" name="utmContent" value=""/>
+    <input type="hidden" id="catalogID" name="catalogID" value=""/>	
+   	<input type="hidden" id="dealDetail" name="dealDetail" value=""/>
+   	<input type="hidden" id="alpha" name="alpha" value="{"status":"success","items":{"tknbta":"69aaa40b50","tknlfa":"956e0caa94bc72294","tknmga":"a6b89","tkndlta":"b99b7b0a7afaef1","tkngma":"65e"},"journeyRestart":false}"/>	
+	<script type="text/javascript">
+			var statusCode = parseInt("400",10);
+			var DrawEye = function(eyecontainer, pupil, eyeposx, eyeposy, eyer){
+			  $("#monstereyes").append("<div id='" + eyecontainer + "'><div id='" + pupil + "'></div></div>");
+			  
+			  eyecontainer = "#" + eyecontainer;
+			  pupil = "#" + pupil;
+			  
+			  $(eyecontainer).css({left:eyeposx, top:eyeposy});
+			  $(pupil).css({width:eyer*0.3,height:eyer*0.3});
+			  $(eyecontainer).css({width:eyer,height:eyer});
+			  $(pupil).css({position: 'absolute', background: '#000000', 'border-radius':'50%'});
+			  $(eyecontainer).css({position:'absolute', background:'#FFFFFF', overflow:'hidden', 'border-radius': '50%','z-index':'-1'});
+			  
+			  // Initialise core variables
+			  var r = $(pupil).width()/2;
+			  var center = {
+			    x: $(eyecontainer).width()/2 - r, 
+			    y: $(eyecontainer).height()/2 - r
+			  };
+			  var distanceThreshold = $(eyecontainer).width()/2 - r;
+			  var mouseX = center.x, mouseY = center.y;
+			  
+			  // Listen for mouse movement
+			  $(window).mousemove(function(e){ 
+			    var d = {
+			      x: e.pageX - r - eyeposx - center.x,
+			      y: e.pageY - r - eyeposy - center.y
+			    };
+			    var distance = Math.sqrt(d.x*d.x + d.y*d.y);
+			    if (distance < distanceThreshold) {
+			      mouseX = e.pageX - eyeposx - r;
+			      mouseY = e.pageY - eyeposy - r;
+			    } else {
+			      mouseX = d.x / distance * distanceThreshold + center.x;
+			      mouseY = d.y / distance * distanceThreshold + center.y;
+			    }
+			  });
+			  
+			  // Update pupil location
+			  var pupil = $(pupil);
+			  var xp = center.x, yp = center.y;
+			  var loop = setInterval(function(){
+			    // change 1 to alter damping/momentum - higher is slower
+			    xp += (mouseX - xp) / 20;
+			    yp += (mouseY - yp) / 20;
+			    pupil.css({left:xp, top:yp});    
+			  }, 1);
+			};
+	
+			var eye = new DrawEye("eye1", "pupil1", 460, 222, 40);
+			var eye = new DrawEye("eye2", "pupil2", 505, 222, 40);
+	
+	
+	var tid = setInterval(changeUp, 1000);
+	
+	function changeUp() {
+	  var i = Math.floor((Math.random()*18)+1);
+	  $('.slab a').children().removeClass('color');
+	   $('.slab a').children().eq(i).addClass('color');
+	};
+	
+	$('.slab a i').on('hover',function(event){
+		if(event.type == 'mouseenter'){
+			clearInterval(tid);
+		 	$('.slab a').children().removeClass('color');
+		}else{
+			tid = setInterval(changeUp, 2000);
+		}
+	});
+	
+	//$('.slab a').on('mouseout',function(){
+	//	alert('out');
+	//	var tid = setInterval(changeUp, 1000);
+	//});
+	
+		</script>
+	<!-- These fields are declared for subscription flow -->
+    <input id="emailRedboxStatus" type="hidden" value="" />
+    <input id="mobileRedboxStatus" type="hidden" value="" />
+    <input type="hidden" name="pageName" id="pageName" value="" /> 
+	<input type="hidden" id="isSetPwdMandatory" value="false"/>
+    <script id="_webengage_script_tag" type="text/javascript"></script>
+	<script>
+		var dpUrlParams = document.getElementById("dpUrlParams") ? document.getElementById("dpUrlParams").value : '';
+		var dpUrlParamsKeys = document.getElementById("dpUrlParamsKeys") ? document.getElementById("dpUrlParamsKeys").value : '';
+		var refPageExpTime;
+		var refEvtExpTime;
+
+		refPageExpTime = parseFloat("0.020833333333333332");
+		if (isNaN(refPageExpTime)) {
+			refPageExpTime = 0.020833333333333332;
+		}
+		refEvtExpTime = parseFloat("0.006944444444444444");
+		if (isNaN(refEvtExpTime)) {
+			refEvtExpTime = 0.006944444444444444;
+		}
+
+		var SDLoggerConfig = {
+			domain 				: 'snapdeal',
+			fullDomain  		: 'www.snapdeal.com',
+			extension 			: '.com',
+			version 			: window["globalConfigs"] ? globalConfigs.assetVersion : '',
+			orgId 				: '1001_1',
+			appType 			: 'WEB',
+			debug 				: false,
+			utmParams 			: dpUrlParams ? dpUrlParams.split(',') : [],
+			utmParamsEventData	: dpUrlParamsKeys ? dpUrlParamsKeys.split(',') : [],//To be used in sending track data, must have corrosponding key in 'utmParams' 
+			queryHID 			: 'HID',
+			queryMID  			: 'MID',
+			cookies 			: { user_email: 'eid', logged_in: 'lu', cookie_id: 'u', utm_params: 'vt', sd_utm_str: '_sdlogger_utm', ab_test: 'alps', locale: 'loc', pincode: 'spin' },
+			endpoint 			: 'https://log.snapdeal.com/eventData',
+			expiryTimes			: {utmCookie: 1/(24*2), sdUTMStr: 1/(24*2),refPage: refPageExpTime, refEvent: refEvtExpTime},
+			persistUTM			: true,
+			userImsId 			: ""
+		};
+		if( window.sdLoggerSwitch && window.SDLogger && typeof SDLogger.init === 'function' ){
+			SDLogger.init(SDLoggerConfig);	
+		}
+		
+		
+		//SDlogger event dp event for social login
+		if(Snapdeal.Cookie.get('socialLogin') != null){
+			var sdLoggerDetail = Snapdeal.Cookie.get('socialLogin');
+			Snapdeal.Cookie.set('socialLogin','',-1);
+			var sdLogData = {};
+		    sdLogData = {
+		    		attemptStatus : true,
+		    		type : sdLoggerDetail 	
+		    }
+			
+			if( window.sdLoggerSwitch && typeof SDLogger === 'object' && typeof SDLogger.log === 'function' ){
+		    	SDLogger.log('clickStream', 'loginAttempt',sdLogData);
+		    }
+			
+		}else if(Snapdeal.Cookie.get('socialLoginError') != null){
+			var socialLoginError = Snapdeal.Cookie.get('socialLoginError');
+			Snapdeal.Cookie.set('socialLoginError','',-1);
+			var sdLogData = {};
+		    sdLogData = {
+		    		attemptStatus : false,
+		    		type : socialLoginError
+		    }
+			if( window.sdLoggerSwitch && typeof SDLogger === 'object' && typeof SDLogger.log === 'function' ){
+		    	SDLogger.log('clickStream', 'loginAttempt',sdLogData);
+		    }
+		}
+	</script>
+
+	<div id="deferredScript" style="display:none;">
+    <script type="text/javascript">
+    	var gpsf = "false"; 
+    	var sameDayCutoffTime = "";
+    	var nextDayCutoffTime = "";
+    	var isSameDayFlag = "";
+    	var isNextDayFlag = "";
+    	var showCompareInBottomBar = 'true' !='true';
+    	var hoverEnabledStateFlag = "true";
+		var buyButtonTransitionFlag = "false";
+		var loggingOmnitureEnabled = "false";
+		//var partialSearch = '';
+    </script>
+    <!--COMMENTSTARTED
+        %0A%3Cscript%3E%0D%0ASnapdeal.Cookie.set%28%22optimizelyBuckets%22%2C+%22%22%2C+-1%29%3B%0D%0ASnapdeal.Cookie.set%28%22optimizelyEndUserId%22%2C+%22%22%2C+-1%29%3B%0D%0ASnapdeal.Cookie.set%28%22optimizelySegments%22%2C+%22%22%2C+-1%29%3B%0D%0ASnapdeal.Cookie.set%28%22optimizelyPendingLogEvents%22%2C+%22%22%2C+-1%29%3B%0D%0ASnapdeal.Cookie.set%28%22_ga%22%2C%22%22%2C+-1%29%3B%0D%0ASnapdeal.Cookie.set%28%22_chartbeat2%22%2C%22%22%2C+-1%29%3B%0D%0AjQuery%28%22.tuppleText+.subText%22%29.eq%280%29.html%28%22Moving+your+card+details+to+a+much+more+%22%29%3B%0D%0AjQuery%28%22.tuppleText+.subText%22%29.eq%281%29.html%28%22secured+place%22%29%3B%0D%0A%3C%2Fscript%3E%0A%3Cscript%3E%0D%0Atry%7B%0D%0Aif%28window.location.pathname+%3D%3D+%22%2Fhelpcenter%2Fcustomercare%22%29+%0D%0A%7B%0D%0A%0D%0Avar+startTime+%3D+new+Date%28%22Feb+18%2C+2017+20%3A30%3A00%22%29.getTime%28%29%3B%0D%0Avar+endTime+%3D+new+Date%28%22Feb+18%2C+2017+22%3A30%3A00%22%29.getTime%28%29%3B%0D%0Avar+currTime+%3D+new+Date%28%29.getTime%28%29%3B%0D%0Aif%28currTime%3EstartTime+%26%26+currTime%3CendTime%29%7B%0D%0A%0D%0A%09var+downtime+%3D+%22%3Cdiv%3ESorry%21+We+are+undergoing+a+system+upgrade+and+will+be+temporarily+unable+to+register+your+request.+Please+try+after+10%3A30+PM%3C%2Fdiv%3E%22%3B%0D%0A%09jQuery%28%27%23ticketform%7Eh1%27%29.hide%28%29%3BjQuery%28%27%23ticketform%3Ediv%27%29.html%28downtime%29.css%28%7B%27text-align%27%3A%27center%27%2C%27font-size%27%3A%2720px%27%2C%27margin-bottom%27%3A%2715px%27%2C%27line-height%27%3A%2725px%27%2C%27margin-top%27%3A%2730px%27%2C%27margin-bottom%27%3A%2730px%27%7D%29%0D%0A%7D%0D%0A%7D%0D%0A%7Dcatch%28e%29%7B%7D%0D%0A%3C%2Fscript%3E%0A%3Cscript%3E%0D%0A%28function+getTrackingParams%28%29+%7B%0D%0A++++var+TrackingParams+%3D+%22%22%3B%0D%0A++++var+affTrackingParams+%3D+%22%22%3B%0D%0A++++var+arrURLParams+%3D+%22%22%3B%0D%0A++++var+isAffiliate+%3D+false%3B%0D%0A++++var+offerIdValue+%3D+%22%22%3B%0D%0A++++var+sourceLowerCaseValue+%3D+%22%22%3B%0D%0A++++var+affCookieTime+%3D+%27%27%3B%0D%0A++++var+sURL+%3D+window.document.URL.toString%28%29%3B%0D%0A++++if+%28sURL.indexOf%28%22%3F%22%29+%3E+0%29+%7B%0D%0A++++++++var+arrParams+%3D+sURL.split%28%22%3F%22%29%3B%0D%0A++++++++arrURLParams+%3D+arrParams%5B1%5D.split%28%22%26%22%29%3B%0D%0A++++%7D%0D%0A%0D%0A++++var+affPrefix+%3D+%24%28%27%23aff%27%29.val%28%29%3B%0D%0A++++var+arrParamNames+%3D+%5B+%27utm_source%27%2C+%27utm_content%27%2C+%27utm_medium%27%2C%0D%0A++++++++%27utm_campaign%27%2C+%27ref%27%2C+%27utm_term%27%2C+%27aff_id%27%2C+%27aff_sub%27%2C+%27aff_sub2%27+%5D%3B%0D%0A++++var+arrParamValues+%3D+%5B+%27null%27%2C+%27null%27%2C+%27null%27%2C+%27null%27%2C+%27null%27%2C+%27null%27%2C+%27null%27%2C+%27null%27%2C+%27null%27%5D%3B%0D%0A++++var+affArrParamNames+%3D+%5B%27aff_id%27%2C+%27aff_sub%27%2C+%27aff_sub2%27%2C+%22aff_source%22%2C+%22aff_time%22%2C%22aff_order_no%22%5D%3B%0D%0A++++var+affArrParamValues+%3D+%5B%27null%27%2C+%27null%27%2C+%27null%27%2C+%27null%27%2C+%27null%27%2C%27null%27%5D%3B%0D%0A++++var+freeSourcesArray+%3D+%5B%22fbpost%22%2C+%22socialt%22%2C+%22newsletter%22%2C+%22retry%22%2C+%22dropout%22%2C+%22referral%22%2C+%22inlink%22%2C+%22affiliate%22%2C+%22aff_prog%22%2C%22irctc%22%5D%3B%0D%0A%09var+affSourceCode+%3D%0D%0A%09%7B%0D%0A%09++++++++%09%27paidsource%27%3A%22PS%22%2C%0D%0A%09++++++++%09%27freesourceofferid-1%27%3A%22FSO%22%2C%0D%0A%09++++++++%09%27freesourcenoofferid-1%27%3A%22FSNO%22%2C%0D%0A%09++++++++%09%27seopaidofferid%27%3A%22SPO%22%2C%0D%0A%09++++++++%09%27seofreeofferid%27%3A%22SFP%22%2C%0D%0A%09++++++++%09%27seopaidnoofferid%27%3A%22SPNO%22%2C%0D%0A%09++++++++%09%27seofreenoofferid%27%3A%22SFNO%22%2C%0D%0A++++++++++++++++%27freesourceofferid0%27%3A%27FSO0%27%2C%0D%0A++++++++++++++++%27freesourceofferid1%27%3A%27FSO1%27%2C%0D%0A++++++++++++++++%27freesourceofferid2%27%3A%27FSO2%27%2C%0D%0A++++++++++++++++%27freesourceofferid3%27%3A%27FSO3%27%2C%0D%0A++++++++++++++++%27freesourceofferid4%27%3A%27FSO4%27%2C%0D%0A++++++++++++++++%27freesourceofferid5%27%3A%27FSO5%27%2C%0D%0A++++++++++++++++%27freesourceofferid6%27%3A%27FSO6%27%2C%0D%0A++++++++++++++++%27freesourceofferid7%27%3A%27FSO7%27%2C%0D%0A++++++++++++++++%27freesourceofferid8%27%3A%27FSO8%27%2C%0D%0A++++++++++++++++%27freesourcenoofferid0%27%3A%27FSNO0%27%2C%0D%0A++++++++++++++++%27freesourcenoofferid1%27%3A%27FSNO1%27%2C%0D%0A++++++++++++++++%27freesourcenoofferid2%27%3A%27FSNO2%27%2C%0D%0A++++++++++++++++%27freesourcenoofferid3%27%3A%27FSNO3%27%2C%0D%0A++++++++++++++++%27freesourcenoofferid4%27%3A%27FSNO4%27%2C%0D%0A++++++++++++++++%27freesourcenoofferid5%27%3A%27FSNO5%27%2C%0D%0A++++++++++++++++%27freesourcenoofferid6%27%3A%27FSNO6%27%2C%0D%0A++++++++++++++++%27freesourcenoofferid7%27%3A%27FSNO7%27%2C%0D%0A++++++++++++++++%27freesourcenoofferid8%27%3A%27FSNO8%27%2C%0D%0A++++++++++++++++%27null%27%3A%27null%27%2C%0D%0A%09++++++++%09%0D%0A%09%7D%0D%0A%09%0D%0A++++var+size+%3D+arrParamNames.length%3B%0D%0A++++var+i+%3D+0%3B%0D%0A++++var+refValue+%3D+%22%22%3B%0D%0A++++var+vtCheck+%3D+1%3B%0D%0A%0D%0A++++for+%28i+%3D+0%3B+i+%3C+arrURLParams.length%3B+i%2B%2B%29+%7B%0D%0A++++++++var+sParam+%3D+arrURLParams%5Bi%5D.split%28%22%3D%22%29%3B%0D%0A++++++++sParam%5B0%5D+%3D+sParam%5B0%5D.toLowerCase%28%29%0D%0A++++++++var+j+%3D+0%3B%0D%0A++++++++for+%28j+%3D+0%3B+j+%3C+size%3B+j%2B%2B%29+%7B%0D%0A++++++++++++if+%28sParam%5B0%5D+%3D%3D+arrParamNames%5Bj%5D%29+%7B%0D%0A++++++++++++++++if+%28sParam%5B1%5D+%21%3D+%22%22%29%0D%0A++++++++++++++++++++arrParamValues%5Bj%5D+%3D+sParam%5B1%5D%3B%0D%0A++++++++++++++++break%3B%0D%0A++++++++++++%7D%0D%0A++++++++%7D%0D%0A++++++++if+%28sParam%5B0%5D+%3D%3D+%27subid%27%29+%7B%0D%0A++++++++++++refValue+%3D+sParam%5B1%5D%3B%0D%0A++++++++%7D+else+if%28sParam%5B0%5D+%3D%3D+%27aff_id%27%29%7B%0D%0A++++++++++++isAffiliate+%3D+true%3B%0D%0A++++++++%7D+else+if%28sParam%5B0%5D+%3D%3D+%27offer_id%27%29%7B%0D%0A++++++++++++offerIdValue+%3D+sParam%5B1%5D%3B%0D%0A++++++++%7D+else+if%28sParam%5B0%5D+%3D%3D+%27utm_source%27%29%7B%0D%0A++++++++++++%2F%2F%2F%2F%2F%2FSNAPDEALTECH-36747+Affiliate+Tracking+on+Web%0D%0A++++++++++++sourceLowerCaseValue+%3D+sParam%5B1%5D.toLowerCase%28%29%3B%0D%0A++++++++%7D%0D%0A%0D%0A++++%7D%0D%0A++++var+referrer+%3D+document.referrer%3B%0D%0A++++var+isReferrerComputed+%3D+false%3B%0D%0A++++var+isReferrerSEO+%3D+false+%3B%0D%0A++++for+%28i+%3D+0%3B+i+%3C+size%3B+i%2B%2B%29+%7B%0D%0A++++++++if+%28arrParamNames%5Bi%5D+%3D%3D+%27utm_source%27+%26%26+arrParamValues%5Bi%5D+%3D%3D+%22null%22+%29+%7B%0D%0A++++++++++++if+%28referrer+%21%3D+%22%22%0D%0A++++++++++++++++%26%26+%28referrer.toLowerCase%28%29.indexOf%28%22google%22%29+%3E+-1%0D%0A++++++++++++++++%7C%7C+referrer.toLowerCase%28%29.indexOf%28%22yahoo%22%29+%3E+-1+%7C%7C+referrer%0D%0A++++++++++++++++++++.toLowerCase%28%29.indexOf%28%22bing%22%29+%3E+-1%29%29+%7B%0D%0A++++++++++++++++arrParamValues%5Bi%5D+%3D+%22SEO%22%3B%0D%0A++++++++++++++++arrParamValues%5B1%5D%3D+null%3B%0D%0A++++++++++++++++arrParamValues%5B2%5D%3D+null%3B%0D%0A++++++++++++++++arrParamValues%5B3%5D%3D+null%3B%0D%0A++++++++++++++++arrParamValues%5B4%5D%3D+null%3B%0D%0A++++++++++++++++arrParamValues%5B5%5D%3D+null%3B%0D%0A++++++++++++++++isReferrerSEO+%3D+true%3B%0D%0A++++++++++++%7D+else+if+%28referrer+%21%3D+%22%22%0D%0A++++++++++++++++%26%26+referrer.toLowerCase%28%29.indexOf%28%22snapdeal%22%29+%3D%3D+-1%29+%7B%0D%0A++++++++++++++++arrParamValues%5Bi%5D+%3D+%22INLINK%22%3B%0D%0A++++++++++++++++arrParamValues%5B1%5D%3D+null%3B%0D%0A++++++++++++++++arrParamValues%5B2%5D%3D+null%3B%0D%0A++++++++++++++++arrParamValues%5B3%5D%3D+null%3B%0D%0A++++++++++++++++arrParamValues%5B4%5D%3D+null%3B%0D%0A++++++++++++++++arrParamValues%5B5%5D%3D+null%3B%0D%0A++++++++++++%7D+else+%7B%0D%0A++++++++++++++++arrParamValues%5Bi%5D+%3D+%22DIRECT%22%3B%0D%0A++++++++++++++++vtCheck+%3D+0%3B%0D%0A++++++++++++%7D%0D%0A%0D%0A++++++++++++isReferrerComputed+%3D+true%3B%0D%0A++++++++%7D%0D%0A++++++++if+%28arrParamNames%5Bi%5D+%3D%3
